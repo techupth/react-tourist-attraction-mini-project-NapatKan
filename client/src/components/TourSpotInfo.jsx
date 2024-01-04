@@ -73,7 +73,7 @@ export default function TourSpotInfo() {
                 />
               ))}
               <button
-                class="self-end"
+                class="self-end bg-blue-200 border-2"
                 onClick={() => navigator.clipboard.writeText(value.url)}
               >
                 this button is blue
